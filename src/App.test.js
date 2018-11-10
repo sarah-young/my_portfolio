@@ -9,7 +9,6 @@ const setup = ( state={} ) => {
   return wrapper;
 }
 
-
 test('component renders without error', () => {
   const wrapper = setup();
   const appContainer = findByTestAttr(wrapper, 'app-container');
