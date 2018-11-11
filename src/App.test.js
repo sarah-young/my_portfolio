@@ -14,3 +14,9 @@ test('component renders without error', () => {
   const appContainer = findByTestAttr(wrapper, 'app-container');
   expect(appContainer.length).toBe(1);
   });
+
+test('login component rendered', () => {
+  const wrapper = setup();
+  const loginComponent = findByTestAttr(wrapper, 'login-component');
+  expect(loginComponent.length).toBe(1);
+});

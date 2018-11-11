@@ -10,6 +10,7 @@ class App extends Component {
   render() {
     return (
       <div data-test= "app-container">
+      <Login />
       </div>
     );
   }
