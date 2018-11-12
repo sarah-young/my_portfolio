@@ -1,16 +1,13 @@
 import React, { Component } from 'react';
 import './App.css';
-import Login from './components/Login';
+import Picture from './components/Picture';
 
 
 class App extends Component {
-  componentDidMount() {
-    this.state = null
-  }
   render() {
     return (
       <div data-test= "app-container">
-      <Login />
+        <Picture />
       </div>
     );
   }

@@ -6,6 +6,7 @@ class Login extends Component {
   render() {
     return (
       <div data-test= "login-container">
+      <h2>Login</h2>
       <form data-test="login-form">
       Username: <input type="text" data-test="username-input" />
       Password: <input type="text" data-test="password-input" />
